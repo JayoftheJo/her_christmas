@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="final.css">
+    <link href='https://fonts.googleapis.com/css?family=Mountains of Christmas' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1 class="header_text">I Love You :) <br> Merry Christmas Ysa, to you and to your family! <br> (click on the img and yes i put the whole song)</h1>
+        </div>
+        <div class="image-container">
+            <img class="image image1" src="img7.jpg" alt="Image 7" onclick="playBackgroundMusic()">
+            <script>
+                var audioPlayed = false;
+                function playBackgroundMusic() {
+                    if (!audioPlayed){
+                        var audio = new Audio('musiq.mp3');
+                        audio.loop = false;
+                        audio.play();
+                        audioPlayed = true;
+                    }
+                }
+            </script>
+        </div>
+    </div>
+</body>
+</html>

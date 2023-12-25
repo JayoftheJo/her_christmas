@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3e0d1e;
+    overflow: hidden;
+}
+
+
+.header_text{
+    font-family: 'Mountains of Christmas'; 
+    font-size: 50px;
+    font-weight: bold;
+    color: #eca59d;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container {
+    text-align: center;
+    color: white;
+}
+
+
+.image {
+    animation: fadeIn 1s ease-in-out;
+    opacity: 1;
+    transform: scale(0.5);
+    border-radius: 25%;
+    margin-left: 20px;
+    position: absolute;
+}
+
+
+.image1 {
+    left: 500px;
+    top: 40px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
